@@ -27,6 +27,10 @@ where *α = 0.4, **β = 0.4, and **γ = 0.2*.
 
 Using this ranking, we selected 1,500 high-value images due to computational constraints.
 
+This dataset is hosted on Kaggle and can be accessed via the following link:
+
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/datasets/shayakbhattacharya/finetune)
+
 ## Model and Training Settings
 
 After preparing the dataset, we used Hugging Face (HF) modules to build the finetuning pipeline. The dataset was converted to the Mask2Former format through a custom pipeline based on the HF dataset structure. This included a custom collate function that returns 6 key items for each image:
